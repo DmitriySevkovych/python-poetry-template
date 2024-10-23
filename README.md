@@ -27,7 +27,7 @@ Depending on your setup, some steps might not be necessary
 Depending on your setup, some steps might not be necessary
 - [ ] Initialize git repository with `git init`
 - [ ] Add dependencies with `poetry add [depencency-name]`
-- [ ] Add dependencies to a specified group (e.g. dev dependencies) with `poetry add --group [group-name] [depencency-name]`
+- [ ] Add dependencies to a specified group (e.g. dev dependencies) with `poetry add [depencency-name] --group [group-name]`
 - [ ] Configure pre-commit hooks with `poetry run pre-commit install`
 - [ ] Run pre-commit hooks once on all files with `poetry run pre-commit run --all-files`
 - [ ] Run tests with `poetry run pytest`
