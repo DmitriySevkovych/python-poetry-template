@@ -21,6 +21,17 @@ pytest = "^7.4.4"
 pytest-asyncio = "^0.23.4"
 typing-extensions = "^4.11.0"
 
+[tool.poetry.group.gpu]
+optional = true
+
+[tool.poetry.group.gpu.dependencies]
+torch = { version = "^2.5.0+cu118", source = "pytorch" }
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu118"
+priority = "explicit"
+
 [tool.poetry.scripts]
 start = "app.main:start"
 

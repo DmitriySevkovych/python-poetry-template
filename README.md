@@ -29,5 +29,6 @@ Depending on your setup, some steps might not be necessary
 - [ ] Add dependencies with `poetry add [depencency-name]`
 - [ ] Add dependencies to a specified group (e.g. dev dependencies) with `poetry add [depencency-name] --group [group-name]`
 - [ ] Configure pre-commit hooks with `poetry run pre-commit install`
+    - [ ] **Attention**, if you can (and want to) use a GPU locally, run `poetry install --with gpu`. This would install a CUDA-enabled version of PyTorch. Adjust as necessary. 
 - [ ] Run pre-commit hooks once on all files with `poetry run pre-commit run --all-files`
 - [ ] Run tests with `poetry run pytest`
