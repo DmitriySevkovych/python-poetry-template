@@ -18,6 +18,7 @@ A ready to go project structure with
 Depending on your setup, some steps might not be necessary
 
 - [ ] Set python version to be used for the project with `poetry env use [path/to/python/executable]`
+    - Alternatively set the python version via `pyenv`. Check [here](https://www.youtube.com/watch?v=3my06DUnApM) and [here](https://medium.com/@adocquin/mastering-python-virtual-environments-with-pyenv-and-pyenv-virtualenv-c4e017c0b173) for infos about `pyenv`.
     - NOTE: python version must be 3.12 or above
 - [ ] Install virtual environment and project dependencies with `poetry install`
 - [ ] Start the application through a pre-defined poetry script with `poetry run start`.
