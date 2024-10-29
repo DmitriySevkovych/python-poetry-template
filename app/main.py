@@ -19,5 +19,5 @@ def start():
 
 
 if __name__ == "__main__":
-    """Python module entry point. Is run via `python -m api.main` e.g. on Docker container start (cf. Dockerfile)"""
+    """Python module entry point. Is run via `python -m app.main` e.g. on Docker container start (cf. Dockerfile)"""
     start()

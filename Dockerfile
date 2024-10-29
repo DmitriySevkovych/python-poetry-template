@@ -27,7 +27,7 @@ ENV VIRTUAL_ENV=/app/.venv \
 
 COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 
-COPY api ./api
+COPY app ./app
 
 ENTRYPOINT [ "python", "-m" ]
-CMD ["api.main"]
+CMD ["app.main"]
