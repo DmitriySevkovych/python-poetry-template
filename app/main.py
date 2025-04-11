@@ -1,19 +1,16 @@
-import logging
 
-from .app_logging.setup import setup_logging
+from loguru import logger
 
 #
-# Logging
+# Logging -> cf. https://github.com/Delgan/loguru
 #
-logger = logging.getLogger(__name__)
-
+logger.add("logs/app.log")
 
 #
 # Entry points
 #
 def start():
     """Launched with `poetry run start` at project root level"""
-    setup_logging()
     logger.debug("Hi there!")
     logger.warning("Hi there!")
 

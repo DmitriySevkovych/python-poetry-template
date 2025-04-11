@@ -8,7 +8,6 @@ A ready to go project structure with
 - [Poetry package/dependency manager](https://python-poetry.org/).
 - [Multi-stage `Dockerfile`](./Dockerfile) for containerizing this poetry project.
 - [Configured `pre-commit`](https://pre-commit.com/) checks.
-- [Configured logging](./app/app_logging/setup.py): handlers (non-blocking queue handler, file-based handler and stderr) and formatters (simple and JSON).
 - Business logic is intended to go into the package called `/app`.
 
 
